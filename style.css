@@ -27,28 +27,6 @@ body {
     background: #f1f1f1;
 }
 
-
-
-
-/*  <!-- Navigation verticale / Left Fixed Navbar --> */
-.nav-gauche {
-    width: 300px;
-    height: 100vh;
-    min-height: 800px;
-    background: var(--gris_tres_clair);
-    position: fixed;
-    top: 0;
-    left: 0;
-    border-right: 1px dashed #f1f1f110;
-    z-index: 5;
-    transition: all 0.2s ease-in-out;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-}
-
 /* menu burger */
 .menu-btn-burger {
     
@@ -83,6 +61,31 @@ body {
   }
 
 /*end menu burger */
+
+
+/*  <!-- Navigation verticale / Left Fixed Navbar --> */
+.nav-gauche {
+    width: 300px;
+    height: 100vh;
+    min-height: 800px;
+    background: var(--gris_tres_clair);
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 1px dashed #f1f1f110;
+    z-index: 5;
+    transition: all 0.2s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.change .nav-gauche{
+    display: none;
+    visibility: hidden;
+}
 
 .blocs-menu span a::before{
     content:'';
