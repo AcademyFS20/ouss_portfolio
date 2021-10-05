@@ -6,15 +6,32 @@
     <title> portfolio </title>
     <meta name="description" content="Green office official webpage">
     <link rel="stylesheet" href="style.css" >
-    <html lang="eng">
+   
 
-    </html>
+    
 </head>
 
 <body>
+
+
+<!-- Menu burger -->
+ <div  class="menu-btn-burger" onclick="myFunction(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+</div>
+
+
 <!-- Navigation verticale -->
 <nav class="nav-gauche">
+
     <div class="blocs-menu">
+
+
+    
+        <!-- end menu burger-->
+
+
         <div class="cercle-portrait">
             <img src="images/boss.svg" alt="portrait img">
         </div>
@@ -63,6 +80,7 @@
     </div>
 
 </nav>
+
 
 <!-- Section Accueil -->
 
@@ -372,32 +390,33 @@
 <!-- Section Contact -->
 <section class="section-contact" id="contact">
 
-<h2><strong>Stay</strong> in touch</h2>
+    <h2><strong>Stay</strong> in touch</h2>
 
-<div class="container-form">
+    <div class="container-form">
 
-    <form class="form-bloc">
+        <form class="form-bloc">
 
-        <div class="form-groupe">
-            <label for="prenom">First Name</label>
-            <input type="text" required maxlength="16" id="prenom">
-        </div>
-        <div class="form-groupe">
-            <label for="nom">Last Name</label>
-            <input type="text" required maxlength="16" id="nom">
-        </div>
-        <div class="form-groupe">
-            <textarea id="txt" placeholder="Votre message" required></textarea>
-        </div>
+            <div class="form-groupe">
+                <label for="prenom">First Name</label>
+                <input type="text" required maxlength="16" id="prenom">
+            </div>
+            <div class="form-groupe">
+                <label for="nom">Last Name</label>
+                <input type="text" required maxlength="16" id="nom">
+            </div>
+            <div class="form-groupe">
+                <textarea id="txt" placeholder="Votre message" required></textarea>
+            </div>
 
-        <div class="form-groupe">
-            <input type="submit" value="ENVOYER" class="button-sub">
-        </div>
+            <div class="form-groupe">
+                <input type="submit" value="ENVOYER" class="button-sub">
+            </div>
 
-    </form>
+        </form>
 
-</div>
-
-
+    </div>
 </section>
+
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="script.js"></script>
 </body>
